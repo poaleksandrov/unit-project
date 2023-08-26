@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    padding: 21px 40px;
+    border-radius: 30px;
+    background: #00C470;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFF;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background-color: #00ad62;
+    }
+    
+    &:focus {
+        background-color: #00a05a;
+    }
+}
+
+a.button {
+    display: inline-block;
+}
